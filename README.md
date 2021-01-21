@@ -1,30 +1,28 @@
 # VehicleModel
- Code and associated files for VehicleModel using Calculus, matrix manipulation to keep track on vehicle
-
 This repository contains code and associated files for Vehicle modeling using basic calculus, matrix manipulation and Python libraries. This repository consists of a number of tutorial notebooks for various coding exercises, labs and mini-project files.
 
 ## Table Of Contents
 
 ### Tutorials
 * [KeepTrack_lab1](/KeepTrack_lab1) 
- * Plotting Position vs Time: plots a position vs time graph of the data
- * Approaching Instantaneous Speed
- * Speed from Position Data: differentiates (taking the derivative of) displacement data.
- * Implement an Accelerometer
- * Understanding the Derivative: Position, velocity, and acceleration are all useful quantities when describing a vehicle's motion and these quantities are related through the derivative.
+    * Plotting Position vs Time: plots a position vs time graph of the data
+    * Approaching Instantaneous Speed
+    * Speed from Position Data: differentiates (taking the derivative of) displacement data.
+    * Implement an Accelerometer
+    * Understanding the Derivative: Position, velocity, and acceleration are all useful quantities when describing a vehicle's motion and these quantities are related through the derivative.
 
 * [KeepTrack_lab2](/KeepTrack_lab2)
- * Plotting Elevator Acceleration: direct access to the phone's IMU data, including data from the accelerometers, rate gyros, and magnetometer and plots acceration while taking an elevator
- * Approximating the Integral : plots Area Under a Curve where horizontal axis is in units of seconds and the vertical axis is in units of meters / second.
- * Integrating Accelerometer Data : uses the integral to go from acceleration data to position data and accumulates change by calculating the area of lots of little rectangles and summing them up
- * Integrating Rate Gyro Data
- * Accumulating Errors: visualizes accumulating errors has a bigger impact on integrated data when we give that data time to accumulate.
+    * Plotting Elevator Acceleration: direct access to the phone's IMU data, including data from the accelerometers, rate gyros, and magnetometer and plots acceration while taking an elevator
+    * Approximating the Integral : plots Area Under a Curve where horizontal axis is in units of seconds and the vertical axis is in units of meters / second.
+    * Integrating Accelerometer Data : uses the integral to go from acceleration data to position data and accumulates change by calculating the area of lots of little rectangles and summing them up
+    * Integrating Rate Gyro Data
+    * Accumulating Errors: visualizes accumulating errors has a bigger impact on integrated data when we give that data time to accumulate.
  
 * [KeepTrack_lab3](/KeepTrack_lab0): plots keeping track of a vehicle's x and y coordinates as it moves in any direction
 
 
 ### Mini-Projec: Trajectory_lab
-[Trajectory_lab](/Trajectories_lab/Reconstructing Trajectories.ipynb) is a notebook and collection of Python files. This project about with reading sensor data from a self-driving car and determining the car's trajectory and path over time using calculus. The raw sensor data looks like this: 
+[Trajectory_lab](/Trajectories_lab/Reconstructing%20Trajectories.ipynb) is a notebook and collection of Python files. This project about with reading sensor data from a self-driving car and determining the car's trajectory and path over time using calculus. The raw sensor data looks like this: 
 * timestamp - Timestamps are all measured in seconds. The time between successive timestamps (Δt) will always be the same within a trajectory's data set (but not between data sets).
 * displacement - Displacement data from the odometer is in meters and gives the total distance traveled up to this point.
 * yaw_rate - Yaw rate is measured in radians per second with the convention that positive yaw corresponds to counter-clockwise rotation.
