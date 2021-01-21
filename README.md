@@ -13,7 +13,7 @@ This repository contains code and associated files for Vehicle modeling using ba
 
 * [KeepTrack_lab2](/KeepTrack_lab2)
     * Plotting Elevator Acceleration: direct access to the phone's IMU data, including data from the accelerometers, rate gyros, and magnetometer and plots acceration while taking an elevator
-    * Approximating the Integral : plots Area Under a Curve where horizontal axis is in units of seconds and the vertical axis is in units of meters / second.
+    * Approximating the Integral : plots "Area Under a Curve" where horizontal axis is in units of seconds and the vertical axis is in units of meters / second.
     * Integrating Accelerometer Data : uses the integral to go from acceleration data to position data and accumulates change by calculating the area of lots of little rectangles and summing them up
     * Integrating Rate Gyro Data
     * Accumulating Errors: visualizes accumulating errors has a bigger impact on integrated data when we give that data time to accumulate.
