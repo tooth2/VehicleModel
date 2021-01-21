@@ -27,6 +27,7 @@ This repository contains code and associated files for Vehicle modeling using ba
 * displacement - Displacement data from the odometer is in meters and gives the total distance traveled up to this point.
 * yaw_rate - Yaw rate is measured in radians per second with the convention that positive yaw corresponds to counter-clockwise rotation.
 * acceleration - Acceleration is measured in 𝑚/𝑠^2 and is always in the direction of motion of the vehicle (forward).
+
 This raw sensor data is saved in a file called trajectory_example.pickle loaded using a helper function. The main fuction of this notebook provides:
 * get_speeds - returns a length 𝑁 list where entry 𝑖 contains the speed (𝑚/𝑠) of the vehicle at 𝑡=𝑖×Δ𝑡 
 * get_headings - returns a length 𝑁 list where entry 𝑖 contains the heading (radians, 0≤𝜃<2𝜋) of the vehicle at 𝑡=𝑖×Δ𝑡
