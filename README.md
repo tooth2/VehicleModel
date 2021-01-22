@@ -21,7 +21,7 @@ This repository contains code and associated files for Vehicle modeling using ba
 * [KeepTrack_lab3](/KeepTrack_lab0): plots keeping track of a vehicle's x and y coordinates as it moves in any direction
 
 
-### Mini-Projec: Trajectory_lab
+### Mini-Project: Trajectory_lab
 [Trajectory_lab](/Trajectories_lab/Reconstructing%20Trajectories.ipynb) is a notebook and collection of Python files. This project about with reading sensor data from a self-driving car and determining the car's trajectory and path over time using calculus. The raw sensor data looks like this: 
 * timestamp - Timestamps are all measured in seconds. The time between successive timestamps (Δt) will always be the same within a trajectory's data set (but not between data sets).
 * displacement - Displacement data from the odometer is in meters and gives the total distance traveled up to this point.
